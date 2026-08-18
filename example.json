@@ -1,0 +1,8 @@
+{
+  "as_of": "2026-08-17T12:00:00Z",
+  "max_age_hours": 48,
+  "observations": [
+    {"metric": "resting_hr", "value": 58, "unit": "bpm", "observed_at": "2026-08-17T07:00:00Z", "source": "wearable", "source_record_id": "wearable-104"},
+    {"metric": "sleep_duration", "value": 7.4, "unit": "hours", "observed_at": "2026-08-17T06:30:00Z", "source": "sleep-log", "source_record_id": "sleep-88"}
+  ]
+}

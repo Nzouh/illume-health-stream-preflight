@@ -1,0 +1,44 @@
+{
+  "status": "review",
+  "observation_count": 2,
+  "source_count": 1,
+  "findings": [
+    {
+      "code": "unexpected_unit",
+      "at": "observations[0]",
+      "metric": "glucose",
+      "unit": "mg/L"
+    },
+    {
+      "code": "stale_observation",
+      "at": "observations[0]",
+      "age_hours": 96.0
+    },
+    {
+      "code": "missing_source_record_id",
+      "at": "observations[0]"
+    },
+    {
+      "code": "unexpected_unit",
+      "at": "observations[1]",
+      "metric": "glucose",
+      "unit": "mg/L"
+    },
+    {
+      "code": "stale_observation",
+      "at": "observations[1]",
+      "age_hours": 96.0
+    },
+    {
+      "code": "duplicate_observation",
+      "at": "observations[1]",
+      "metric": "glucose"
+    },
+    {
+      "code": "insufficient_source_diversity",
+      "sources": [
+        "lab-upload"
+      ]
+    }
+  ]
+}
